@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="My Profile" />
+
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="Notification" />
+        <item
+            android:id="@+id/nav_job_app"
+            android:icon="@drawable/ic_job"
+            android:title="My Job Applications" />
+        <item
+            android:id="@+id/nav_job_saved"
+            android:icon="@drawable/ic_savedjob"
+            android:title="My Saved Job" />
+
+        <item
+            android:id="@+id/nav_news"
+            android:icon="@drawable/ic_news"
+            android:title="My Saved News" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ib_contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="About C2H" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout"
+            android:title="Log out" />
+    </group>
+
+</menu>
